@@ -1,3 +1,34 @@
 @charset "UTF-8";
 /* CSS Document */
 
+body {
+	margin: o;
+	padding: 0;
+}
+
+#home {
+	background-color: #F8E514;
+	background-image: url ('background.jpg');
+}
+.wrapper {
+	max-width:1170px;
+	margin: 0 auto 0 auto;
+}
+#gallery {
+	background-color: #FAFAFA;
+	clear: both;
+}
+.show {
+	background-color: #F8E514;
+	clear: both;
+}
+#about {
+	background-color: #F8E514;
+}
+#featured {
+	background-color: #F8E514;
+}
+.column-features {
+	width: 33%;
+	float: left;
+}

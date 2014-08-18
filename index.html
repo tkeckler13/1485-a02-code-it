@@ -3,10 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <title>Umbrella</title>
+<link href="styles/styles.css" rel="stylesheet">
 </head>
 
 <body>
 	<section id="home">
+    	<div class="wrapper">
     	<header>
         	<h1></h1>
         	<nav>
@@ -29,15 +31,20 @@
                     <li> doloremque laufantium</li>
                 </ul>
                 <a href="">Download</a>
-            <a href="">View Gallery</a> 
-            <img src="images/handphone.jpg" alt="handphone" width="264" height="342"><!--PHONE IN HAND-->
+            <a href="">View Gallery</a>
+        </div> 
+        <div class="handphone">
+            <img src="images/handphone.png" alt="handphone" width="298" height="352"><!--PHONE IN HAND-->
 		</div>
+        </div>
     </section>
     
     <section id="features">
+    	<div class="wrapper">
     	<header>
-        	<h2>AMAZING FEATURES
+        	<h2>AMAZING FEATURES</h2>
             	<p>Sed ut perspiciatis unde iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.</p>
+        <div class="column-features">
             <div class="tools">
             	<img>
                 <h4>Accusan timar</h4>
@@ -50,8 +57,9 @@
             	<img>
                 <h4>Accusan timar</h4>
                 <p>Sed ut perspiciatis unde iste natus error sit voluptatem accusantium doloremque laudantium.</p></div>
-            <img src="images/bigphone.jpg" alt="phone" width="244" height="501"><!--GIANT ASS PHONE-->
-            
+        </div>
+             <div class="column-features"><img src="images/bigphone.jpg" alt="phone" width="244" height="501"><!--GIANT ASS PHONE--></div>
+        <div class="column-features">
             <div class="person head">
             	<img>
                 <h4>Accusan timar</h4>
@@ -64,9 +72,11 @@
             	<img>
                 <h4>Accusan timar</h4>
                 <p>Sed ut perspiciatis unde iste natus error sit voluptatem accusantium doloremque laudantium.</p></div>
+        </div>
 	</section>
     
     <section id="gallery">
+    <div class="wrapper">
     	<h2>SCREENSHOTS GALLERY</h2>
         	<p>Sed ut perspiciatis unde iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta</p>
             <div class="screenshots">
@@ -75,25 +85,34 @@
             	<img src="images/screenshot.jpg" alt="screenshot" height="320">
             	<img src="images/screenshot.jpg" alt="screenshot" height="320">
             	<img src="images/screenshot.jpg" alt="opaque" height="320"><!--WITH OPACITY-->
+        </div>
             </div>
+        <div class="wrapper">
             <div class="show">
             	<img src="images/showreel.jpg" alt="showreel" width="246" height="57"><!--Show > Reel-->
             </div>
             <div class="umbrella">
             	<img src="images/yellowumbrella.jpg" alt="yellowumbrella" width="105" height="49"><!--Umbrella Logo (Bottom Right Corner)-->
             </div>
+            </div>
     </section>
     
     <section id="about">
+    <div class="wrapper">
 <h2>PEOPLE BEHIND THE APP</h2>
         	<p>Sed ut perspiciatis unde iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam volupltatem quia volutas sit aspernatur aut odit fugit.</p>
             <div class="people"></div><!--People's Pictures-->
+            </div>
+            <div class="wrapper">
             <img><!--QUOTATION MARK-->
             <p>Sed ut perspiciatis unde iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam volupltatem quia volutas sit aspernatur aut odit fugit, sed quia consequutur magni dolores eos qui ratione voluptatem sequi nesciunt</p>
             <div>
             	<img><!--Little Yellow Circle-->
                 <p><strong>Robert Leonaro</strong>
                 CEO at CUBEDES</p>
+            </div>
+    <div class="wrapper">
+    <div class="featured">
         <h2>FEATURED IN</h2>
         	<or>
             	<li><img src="images/theverge.jpg" alt="theverge" width="176"><!--THE VERGE--></li>
@@ -102,20 +121,29 @@
                 <li><img src="images/behance.jpg" alt="behance" width="178"><!--Behance--></li>
                 <li><img src="images/dribbble.jpg" alt="dribbble" width="125"><!--dribbble--></li>
             </or>
+            </div>
+            </div>
     </section>
     
     <section id="contact">
+    <div class="wrapper">
     	<h2>GET IN TOUCH</h2>
         	<p>Sed ut perspiciatis unde iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam volupltatem quia volutas sit aspernatur aut odit fugit.</p>
             <div class="forms">
             	<h4>Say hello!</h4>
-                <!--3 FORMS HERE-->
+                <form action="demo_form.asp" method="get">
+  Name:<input type="text" name="fname"><br>
+  Email:<input type="text" name="lname"><br>
+  Message:<input type="text" name="lname"><br>
+  <input type="submit" value="Submit">
+				</form>
                 <a href="">Send message</a>
       </div>
              
              <div><!--Grey icons go here--></div>
              
              <div><img src="images/bigphonehalf.jpg" alt="bigphonehalf" width="166" height="256"></div><!--BIG HALF OF A PHONE-->
+         </div>
     </section>
     
     <footer>
