@@ -22,11 +22,16 @@ body {
 	background-color: #F8E514;
 	clear: both;
 }
-#about {
-	background-color: #F8E514;
+.people {
+	background-color: #FAFAFA;
+	clear: both;
 }
-#featured {
+.quote {
+	clear: both;
+}
+.featured {
 	background-color: #F8E514;
+	clear: both;
 }
 .column-features {
 	width: 33%;
