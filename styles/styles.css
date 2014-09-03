@@ -73,14 +73,16 @@ header li {
 	list-style-type: none;
 	text-decoration: none;
 	overflow: auto;
+	color: black;
 }
 .page-links {
 	float: right;
 	color: #878787;
 	list-style-type: none;
 }
-a #home {
+#home a {
 	color:#000000;
+	text-decoration: none;
 }
 .intro {
 	float: left;
@@ -91,6 +93,7 @@ a #home {
 .intro ul {
 	list-style-type:none;
 	font-size: x-small;
+	padding-bottom: 30px;
 }
 .pe-7s-angle-right {
 	padding-right: 3px;
@@ -98,18 +101,29 @@ a #home {
 .intro h2, .intro p, .intro ul {
 	text-align: left;
 }
-#home button {
+.intro a {
 	color: black;
   	border: 2px solid black;
   	background-color: transparent;
-  	font-size: 12px;
+	font-size: 14px;
 	padding-right: 20px;
+	text-decoration: none;
+	color: black;
+	padding: 12px 20px 12px 5px;
+	line-height:1px;
+}
+a:hover {
+	opacity: .5;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
 }
 .pe-7s-cloud-download {
-	padding: 5px 8px 5px 5px;
+	padding: 0px 10px 5px 5px;
 }
 .pe-7s-look {
-	padding: 5px 8px 5px 5px;
+	padding: 0px 10px 5px 10px;
 }
 .handphone {
 	position: absolute;
@@ -190,7 +204,7 @@ h3 {
 	padding:0 12.5px 0 12.5px;
 }
 .screenshots {
-	padding: 50px 0 0px 0px;
+	margin-bottom: 50px;
 }
 .show {
 	background-color: #F8E514;
@@ -200,6 +214,7 @@ h3 {
 	background-color: #FAFAFA;
 	clear: both;
 	padding: 5px 0 80px 0;
+	margin-bottom: 150px;
 }
 .quote {
 	background-color: none;
@@ -264,27 +279,56 @@ or {
 }
 #contact {
 	clear: both;
-	border-bottom: ##F8E514;
+}
+.contact {	
+	max-height: 1000px;
+}
+.hello {
+	font-weight:300;
 }
 .forms {
 	float: left;
+	padding: 40px 20px 0 20px;
+}
+input {
+	width: 100%;
+	border: 0;
+	border-bottom: 1px solid #878787;
+	padding: 25px 0;
+	font-size:10px;
+}
+input:focus {
+	outline: 0;
 }
 #contact button {
 	background-color: transparent;
   	font-size: 12px;
 	border: none;
 	padding-right: 10px;
+	margin-top: 50px;
+}
+#contact button:hover {
+	opacity: .5;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
 }
 .pe-7s-mail {
 	padding: 5px 8px 5px 5px;
 }
+.social-icons {
+	padding: 130px 80px 0 50px;
+	float:right;
+}
 .halfphone {
 	float: right;
+	bottom:0%;
 }
 footer {
 	font-size: xx-small;
 	clear: both;
-	border-top:#F8E514;
+	border-top: 2px solid #F8E514;
 }
 footer p {
 	line-height: 15px;

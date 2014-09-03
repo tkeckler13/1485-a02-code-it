@@ -37,8 +37,8 @@
                     <li><span class="pe-7s-angle-right pe-2x pe-va"></span>Doloremque laufantium</li>
           </ul>
           
-          <button type: onClick="download"><a href=""><span class="pe-7s-cloud-download pe-2x pe-va"></span>Download</a></button>
-    <button type: onClick="download"><a href=""><span class="pe-7s-look pe-2x pe-va"></span>Gallery</a></button>
+          <a href=""><span class="pe-7s-cloud-download pe-2x pe-va"></span>Download</a>
+          <a href=""><span class="pe-7s-look pe-2x pe-va"></span>Gallery</a>
              
         </div>
 
@@ -138,7 +138,7 @@
 <h2>PEOPLE BEHIND THE APP</h2>
         	<p class="lorum">Sed ut perspiciatis unde iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam volupltatem quia volutas sit aspernatur aut odit fugit.</p>
             <div class="column-people">
-            <img src="images/personbox.jpg" alt="personbox" width="170" height="170">
+            <a class="people-hover" href="#"><img src="images/personbox.jpg" alt="personbox" width="170" height="170"><span>sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem</span></a>
             <p>	Jonh Doe eh
             	Lead Designer</p>
             </div>
@@ -194,25 +194,27 @@
     </section>
     
     <section id="contact">
-    <div class="wrapper">
+    	<div class="contact">
+    	<div class="wrapper">
     	<h2>GET IN TOUCH</h2>
         	<p class="lorum">Sed ut perspiciatis unde iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam volupltatem quia volutas sit aspernatur aut odit fugit.</p>
             <div class="forms">
-            	<h4>Say hello!</h4>
-                <form action="demo_form.asp" method="get">
-  Name:<input type="text" name="fname"><br>
-  Email:<input type="text" name="lname"><br>
-  Message:<input type="text" name="lname"><br>
-  <button type: onClick="download"><a href=""><span class="pe-7s-mail pe-2x pe-va"></span>Send message</a></button>
-				</form>
+            	<h4 class="hello">Say hello!</h4>
+                <form>
+				  <input type="text" placeholder="Name">
+				  <input type="text" placeholder="Email">
+				  <input type="text" placeholder="Message">
+  					<button><span class="pe-7s-mail pe-2x pe-va"></span>Send message</a></button>
+                </form>
                 
       		</div>
-             <div><!--Grey icons go here--></div>
-             
-             <div class="halfphone">
-             <img src="images/bigphonehalf.jpg" width="225" height="347" alt+"halfphone">
-             <!--BIG HALF OF A PHONE-->
+             <div class="social-icons">
+  				<img src="images/social-icons.jpg" alt="social-icons" width="24" height="180">
+             </div>
+          <div class="halfphone"><img src="images/bigphonehalf.jpg" width="225" height="347" alt+"halfphone"><!--BIG HALF OF A PHONE-->
          	</div>
+		</div>
+		</div>
     </section>
     
     <footer>
@@ -222,7 +224,7 @@
             </div>
             <p>eusmod tempr incididunt ut labore et dolore magne aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ea commodo consequat.</p>
         </div>
-        <div class="column-footer">
+<div class="column-footer">
         	<h5>Subscribe</h5>
             <form action="demo_form.asp" method="get">
   <input type="text" name="fname"><br></form>
