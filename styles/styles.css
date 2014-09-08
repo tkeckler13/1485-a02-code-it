@@ -216,6 +216,18 @@ h3 {
 .show {
 	background-color: #F8E514;
 	clear: both;
+	overflow: auto;
+}
+.reel {
+	padding: 200px 0 200px 0;
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+	align-content: center;
+}
+.yellowumbrella {
+	float: right;
+	padding-right: 30px;
 }
 .people {
 	background-color: #FAFAFA;
@@ -226,9 +238,11 @@ h3 {
 }
 .column-people {
 	float:left;
-	padding-right: 10px;
 	margin-left: auto;
 	margin-right: auto;
+	width: 20%;
+	padding: 40px 0 0 40px;
+	
 }
 .column-people a {
 	float: left;
@@ -259,6 +273,19 @@ h3 {
 .column-people a:hover span {
 	display: block;
 }
+.column-people a:hover .people-links{
+	display: block;
+}
+.people-links {
+}
+.column-name {
+	font-size:x-small;
+	float: left;
+	width:20%;
+	line-height:0px;
+	text-align: left;
+	padding-left:40px;
+}
 .quote {
 	background-color: none;
 	clear: both;
@@ -285,7 +312,7 @@ circle {
 	padding: 55px 115px 60px 115px;
 }
 .featured-list {
-	padding: 60px 60px 205px 160px;
+	padding: 60px 50px 205px 150px;
 }
 .column-features {
 	width: 33%;
@@ -311,8 +338,6 @@ circle {
 }
 or {
 	list-style-type:none;
-}
-.yellowumbrella {
 }
 #contact {
 	clear: both;
@@ -371,6 +396,8 @@ footer {
 	font-size: xx-small;
 	clear: both;
 	border-top: 2px solid #F8E514;
+	overflow: auto;
+	padding-top: 70px;
 }
 footer p {
 	line-height: 15px;
@@ -386,12 +413,13 @@ footer p {
 }
 .subscribe {
 	width: 100%;
+	border-radius: 3px 0 0 3px;
 	border: 1px solid #878787;
 }
 .subscribe input {
 	padding: 10px 5px;
 	float: left;
-	border: 0
+	border: 0;
 }
 .subscribe input {
 	outline: 0;
