@@ -422,7 +422,6 @@ footer p {
 }
 .subscribe {
 	width: 100%;
-	border-radius: 3px 0 0 3px;
 	border: 1px solid #878787;
 	margin: auto;
 	overflow:auto;
@@ -456,4 +455,7 @@ footer p {
 }
 .explore-links li {
 	list-style-type:none;
+}
+.created {
+	border-left: 1px solid #F8E514;
 }
