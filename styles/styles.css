@@ -34,8 +34,8 @@ p, li {
 .lorum {
 	font-size: small;
 	color: #636363;
-	padding-left: 30px;
-	padding-right: 30px;
+	padding-left: 120px;
+	padding-right: 120px;
 }
 .lorum2 {
 	font-size: xx-small;
@@ -246,8 +246,8 @@ h3 {
 }
 .column-people a {
 	float: left;
-	position:relative;
-	
+	position: relative;
+	visibility: visible;	
 }
 .column-people a img {
 	display: block;
@@ -268,15 +268,21 @@ h3 {
 .column-people a:hover {
 	background-color: #F8E514;
 	opacity: 1;
-	transition: none;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
 }
 .column-people a:hover span {
 	display: block;
-}
-.column-people a:hover .people-links{
-	display: block;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
 }
 .people-links {
+	padding-top:40px;
+	padding-left: 20px;
 }
 .column-name {
 	font-size:x-small;
@@ -286,21 +292,23 @@ h3 {
 	text-align: left;
 	padding-left:40px;
 }
+.column-name p {
+	text-align: left;
+	line-height: 15px;
+}
 .quote {
 	background-color: none;
 	clear: both;
 	padding: 50px 0 50px 0;
 }
-.quote-mark {
+.quote-mark img {
 	margin-left: auto;
 	margin-right: auto;
-}
-circle {
-	align-content:center;
 }
 .robert {
 	text-align: center;
 	line-height: 0px;
+	padding-top: 40px;
 }
 .featured {
 	background-color: #F8E514;
@@ -398,6 +406,7 @@ footer {
 	border-top: 2px solid #F8E514;
 	overflow: auto;
 	padding-top: 70px;
+	padding-bottom: 70px;
 }
 footer p {
 	line-height: 15px;
@@ -415,21 +424,26 @@ footer p {
 	width: 100%;
 	border-radius: 3px 0 0 3px;
 	border: 1px solid #878787;
+	margin: auto;
+	overflow:auto;
 }
 .subscribe input {
-	padding: 10px 5px;
+	padding: 7px 0 5px 10px;
 	float: left;
 	border: 0;
+	width: 80%;
+	font-size:15px;
+	color: #878787;
 }
 .subscribe input {
 	outline: 0;
 }
 .subscribe button {
-	font-size: 15px;
-	width: 10px;
+	font-size: 12px;
+	width: 10%;
 	float: right;
 	border: 0;
-	padding: 10px;
+	padding: 5px 10px 5px 0;
 	color: #878787;
 	background: transparent;
 }
@@ -443,4 +457,3 @@ footer p {
 .explore-links li {
 	list-style-type:none;
 }
-
