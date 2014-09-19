@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body {
-	margin: o;
+	margin: 0;
 	padding: 0;
 	font-family: 'Open Sans', sans-serif;
 }
@@ -136,7 +136,7 @@ a:hover {
 }
 #features {
 	clear: both;
-	blackground-color: #ffffff;
+	background-color: #FFFFFF;
 	padding: 0 100px 50px 100px;
 }
 .feature {
@@ -297,9 +297,8 @@ h3 {
 	line-height: 15px;
 }
 .quote {
-	background-color: none;
 	clear: both;
-	padding: 50px 0 50px 0;
+	padding: 0 0 100px 0;
 }
 .quote-mark img {
 	margin-left: auto;
